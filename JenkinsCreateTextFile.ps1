@@ -1,4 +1,4 @@
-# Create Temp Directory
+# Create Temp Directory to test Jenkins
 if (-not(Test-Path -Path 'C:\temp'))
 {
     New-Item -Path 'C:\temp' -ItemType directory
