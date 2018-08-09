@@ -3,10 +3,6 @@ param($VariableA)
 
 write-host "Well, did we get $VariableA passed in correctly?"
 
-function{}
-pirnt
-
-$LASTEXITCODE =1
 # Now commit to GitHub!
 
 
