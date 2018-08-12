@@ -9,3 +9,5 @@ Function Run-PsFunc{
 
 	#Let make it a drop down box as well
 }
+
+#Run-PsFunc -VariableA a -VariableB b
