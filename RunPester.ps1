@@ -23,7 +23,7 @@ param (
  	cd "$source\Pester"
  
         # Execute tests
- 	    Invoke-Pester -verbose -OutputFile "$Source\$OutFile"  -OutputFormat NUnitXml `
+ 	    Invoke-Pester -verbose -OutputFile "$Source\Report\$OutFile"  -OutputFormat NUnitXml `
                       -EnableExit -Script @{ Path = "$Source\Pester"; Parameters = @{
                                                              IISSite = $IISSite;
                                                              IISPool = $IISPool;};}
