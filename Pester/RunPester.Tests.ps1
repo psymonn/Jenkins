@@ -3,7 +3,7 @@
     [String]$IISPool
 )
 
-import-module C:\Users\TI\Documents\WindowsPowerShell\Modules\Remotely\Remotely.psd1
+#import-module C:\Users\TI\Documents\WindowsPowerShell\Modules\Remotely\Remotely.psd1
  
 Describe "ValidateWebSite" {
  
